@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Roman-numeral converter</title>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+	<script type="text/javascript" src="romanConv.js"></script>
+	<link href="romanConv.css" rel="stylesheet">
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="font-family:'timesnewroman'; color: #fff; background: rgb(64, 64, 64)">
+	<div ng-app="myApp" ng-controller="myController">
+		<center><br>
+			<h2>Roman-Numeral Converter</h2>
+			<div id="romanConv" class="container-fluid well">	
+				<scan id="anchor">
+					Enter number: <input type="number" ng-model="val"><br><br>
+				</scan>
+				<button class="btn btn-default" id="converter" ng-click='con()'><scan>Convert</scan></button>
+			</div>
+			<br><br><br>
+			<div id="result">
+					Result: <scan style="color:#000"><input ng-model='result' size=12></scan>	
+			</div>
+		</center>
+	</div>
+</body>
+</html>

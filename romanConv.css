@@ -1,0 +1,24 @@
+#romanConv{
+	height: 400;
+	border: 20px #000 inline;
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-top: 5%;
+
+	font-size: 20px;
+	font-family: timesnewroman;
+}
+#converter{
+	font-size: 20px;
+	font-family: verdana;
+	color: #fff;
+	background-color: rgb(64, 64, 64);
+	border:0px;
+}
+#anchor{
+	color: #000;
+}
+#result{
+	color:#fff;
+	font-size: 25px;
+}
